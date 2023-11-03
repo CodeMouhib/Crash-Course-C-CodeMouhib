@@ -4,23 +4,29 @@ void main() {
 
 printf("Salam, A l3alam !\n");
 
+
 int a ;
 
-a = 20;
+printf("\n hadi a7ssan claculatrice fl3alam wakha ghat7sseb gher lmjmo3");
 
-printf("valeur diyal variable a = %d \n",a);
+printf("\n Asidi 3tini ra9m lowel : ");
 
+scanf("%d", &a);
+
+printf("\n valeur diyal Ra9m Lowel = %d \n",a);
 
 int b;
 
-b = 10;
+printf("\n Asidi zidni Ra9m tani : ");
 
-printf("valeur diyal variable b = %d \n",b);
+scanf("%d", &b);
 
-int somme;
+printf("\n valeur diyal ra9m tani  = %d \n",b);
 
-somme = a + b ;
+int sum;
 
-printf("a = %d , b = %d , lmjmo3 diyal a + b = %d \n",a,b,somme);
+sum = a + b ;
+
+printf("\n ra9m lowel = %d , ra9m tani = %d , lmjmo3 diyal ra9m lowel + ra9m tani = %d \n",a,b,sum);
 
 }
