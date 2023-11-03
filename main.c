@@ -17,6 +17,10 @@ b = 10;
 
 printf("valeur diyal variable b = %d \n",b);
 
-printf("a = %d , b = %d , lmjmo3 diyal a + b = %d \n",a,b,a+b);
+int somme;
+
+somme = a + b ;
+
+printf("a = %d , b = %d , lmjmo3 diyal a + b = %d \n",a,b,somme);
 
 }
