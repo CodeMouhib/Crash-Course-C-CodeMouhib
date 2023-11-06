@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-void main()
+
+void lmjmo3DiyalAr9amZawjiya(int m)
 {
-    int n, i, sum = 0;
 
-    printf("lyoum ghant3elem n7sseb lmjmo3 diyal ar9ab zawjiya fa9at\n\n");
-    printf("Asidi 3tini nemra : ");
-    scanf("%d", &n);
+    int  i, sum = 0;
 
-    for (i = 1; i <= n; i++) {
+    
+
+    for (i = 1; i <= m; i++) {
 
         if (i % 2 == 0) {
 
@@ -16,7 +16,7 @@ void main()
 
         }else{
 
-	printf("Asidi %d machi ra9m zawji",i);
+	printf("\nAsidi %d machi ra9m zawji\n",i);
 	
 	}
 	
@@ -24,9 +24,22 @@ void main()
 
     }
 
-   printf("lmjmo3 diyal ar9am zawjiya mn 1 tal %d howa : %d \n", n, sum);
+   printf("lmjmo3 diyal ar9am zawjiya mn 1 tal %d howa : %d \n", m, sum);
+   
+}
 
-   printf("\n\n\t kijitek 3awtani flmath, gha codini mzyan rah n3jbk !\n\n Matnsach t7sseb m3aya man3rft nghlet !!\n");
+void main()
+{
+    int n ;
+    	
+    printf("lyoum ghant3elem n7sseb lmjmo3 diyal ar9ab zawjiya fa9at\n\n");
+    printf("Asidi 3tini nemra : ");
+    scanf("%d", &n);
+    
+    lmjmo3DiyalAr9amZawjiya(n);
+    
+    
+    printf("\n\n\t kijitek 3awtani flmath, gha codini mzyan rah n3jbk !! \n\n Matnsach t7ssb moraya !! \n");
 
 
 }
