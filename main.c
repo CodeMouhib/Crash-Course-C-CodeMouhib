@@ -2,24 +2,31 @@
 
 void main()
 {
-    printf("Lyoum Ghanbiyenlk program diyalk Ch7al wella dki\n");
-    printf("ghan7sblk lmjmo3 diyal l2ar9am mn 1 tal fin ma bghiti \n");
-    
-    int n, i;
-    int sum = 0;
+    int n, i, sum = 0;
 
-    printf("tal fin bghitini n7ssblk : ");
+    printf("lyoum ghant3elem n7sseb lmjmo3 diyal ar9ab zawjiya fa9at\n\n");
+    printf("Asidi 3tini nemra : ");
     scanf("%d", &n);
-    
-    printf("\nsbar 3lia n7ssb lmjmo3 diyal ar9am mn 0 tal %d \n",n);
 
-    // Using a for loop to calculate the sum of numbers from 1 to n
     for (i = 1; i <= n; i++) {
-        sum += i; //sum = sum + i
+
+        if (i % 2 == 0) {
+
+            sum += i;
+
+        }else{
+
+	printf("Asidi %d machi ra9m zawji",i);
+	
+	}
+	
+
+
     }
 
-    printf("\nlmjmo3 mn  0 tal %d howa : %d\n", n, sum);
+   printf("lmjmo3 diyal ar9am zawjiya mn 1 tal %d howa : %d \n", n, sum);
 
-    printf("haaa kijitek, hsseb m3aya t2eked belli maghletch !\n");
+   printf("\n\n\t kijitek 3awtani flmath, gha codini mzyan rah n3jbk !\n\n Matnsach t7sseb m3aya man3rft nghlet !!\n");
+
 
 }
