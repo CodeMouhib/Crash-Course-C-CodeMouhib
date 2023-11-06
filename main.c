@@ -2,18 +2,35 @@
 
 void main() {
 
-    char ch1, ch2;
+    
 
-    // Prompt the user for input
-    printf("asidi 3tini chi charcter  : ");
-    scanf(" %c", &ch1); // Note the space before %c to consume any leading whitespace
+    int Tab[5]; // Declare an integer array of the specified size
 
-    // Display the input character
-    printf("asidi yeak hada character li 3titini : %c\n", ch1);
+    // Input values for the array
+    printf("Asidi 3tini valeur Lowla Diyal Tab diyalna : \t");
+    scanf("%d", &Tab[0]);
+    printf("Asidi 3tini valeur Tania Diyal Tab diyalna : \t");
+    scanf("%d", &Tab[1]);
+    printf("Asidi 3tini valeur Talta Diyal Tab diyalna : \t");
+    scanf("%d", &Tab[2]);
+    printf("Asidi 3tini valeur Rab3a Diyal Tab diyalna : \t");
+    scanf("%d", &Tab[3]);
+    printf("Asidi 3tini valeur Lkhamsa Diyal Tab diyalna : \t");
+    scanf("%d", &Tab[4]);
+   
 
-    // Increment the character and display the result
-    ch2 = ch1 + 1;
-    printf("7et program diyali 9ari ha character li kayji morah : %c\n", ch2);
 
+    // Display the values stored in the array
+    printf("\n\n");
+
+    printf("valeur lwola =  %d \n", Tab[0]);
+    printf("valeur lwola =  %d \n", Tab[1]);
+    printf("valeur lwola =  %d \n", Tab[2]);
+    printf("valeur lwola =  %d \n", Tab[3]);
+    printf("valeur lwola =  %d \n", Tab[4]);
+
+    printf("\n");
+
+    
 
 }
