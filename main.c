@@ -1,36 +1,23 @@
 #include <stdio.h>
+#include <string.h>
 
 void main() {
-
     
+    char kelma1[100]; // Declare a character array to store a string
+    char kelma2[100];
 
-    int Tab[5]; // Declare an integer array of the specified size
+    // Prompt the user for input
+    printf("Asidi 3tini string (kelma1) : ");
+    scanf("%s", kelma1);
 
-    // Input values for the array
-    printf("Asidi 3tini valeur Lowla Diyal Tab diyalna : \t");
-    scanf("%d", &Tab[0]);
-    printf("Asidi 3tini valeur Tania Diyal Tab diyalna : \t");
-    scanf("%d", &Tab[1]);
-    printf("Asidi 3tini valeur Talta Diyal Tab diyalna : \t");
-    scanf("%d", &Tab[2]);
-    printf("Asidi 3tini valeur Rab3a Diyal Tab diyalna : \t");
-    scanf("%d", &Tab[3]);
-    printf("Asidi 3tini valeur Lkhamsa Diyal Tab diyalna : \t");
-    scanf("%d", &Tab[4]);
+    // Display the input string
+    printf("Asidi klemtek hiya lkbira, kelma1 diyalk hiya : %s\n", kelma1);
+    printf("gha bach t3refni mtebe3 m3ak li gulti hiya li kayna\n");
+    // Copy the string into another variable and display the result
+    strcpy(kelma2, kelma1);
+    printf("kelma2 mab9atch khawiya wellat tahia : %s \n", kelma2);
+
    
-
-
-    // Display the values stored in the array
-    printf("\n\n");
-
-    printf("valeur lwola =  %d \n", Tab[0]);
-    printf("valeur lwola =  %d \n", Tab[1]);
-    printf("valeur lwola =  %d \n", Tab[2]);
-    printf("valeur lwola =  %d \n", Tab[3]);
-    printf("valeur lwola =  %d \n", Tab[4]);
-
-    printf("\n");
-
-    
-
 }
+
+
