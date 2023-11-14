@@ -9,12 +9,12 @@ Welcome to the Crash Course in C Programming by CodeMouhib! This repository cont
 
 ## Table of Contents 📚
 
-1. [Session 1: Setting Up](#session-1)
+1. [Session 1 : Setting Up ( angado la machine diyalna )](#session-1)
    - [Setup](#setup)
-   - [Readme.Md Short Introduction](#readme-intro)
-   - [First Pull/Commit/Push](#first-pull-commit-push)
+   - [Readme.Md Short Introduction ( anktachfo Readme.md )](#readme-intro)
+   - [First ( awel ) Pull/Commit/Push](#first-pull-commit-push)
 
-2. [Session 2: Standard Input/Output and Variables](#session-2)
+2. [Session 2 : Standard Input/Output and Variables](#session-2)
    - [Branch Switch Workout 1 (PushUp 0)](#branch-workout-1-pushup-0)
    - [Branch Switch Workout 1 (PushUp 1)](#branch-workout-1-pushup-1)
    - [Branch Switch Workout 2 (PushUp 0)](#branch-workout-2-pushup-0)
