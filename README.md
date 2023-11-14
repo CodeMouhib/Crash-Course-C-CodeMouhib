@@ -3,6 +3,7 @@
 ---
 
 # 🚀 Crash Course in C Programming - CodeMouhib 🚀
+Mar7ba bik f Crash Course diyal C loghat lbarmaja ya sidi diyal CodeMouhib Had Repository fiha serie Diyal l7issas bach t3awnk t3lm C mn ZERO! Gha li mabghach yt3elem o kan 
 
 Welcome to the Crash Course in C Programming by CodeMouhib! This repository contains a series of sessions aimed at helping you learn C programming from scratch.
 
